@@ -1,0 +1,416 @@
+.article {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 443px;
+    height: 600px;
+    background-color: #fff;
+    border-radius: 5px;
+    overflow: auto;
+    z-index: 999;
+    box-sizing: border-box;
+}
+
+.article_change {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 443px;
+    height: 600px;
+    background-color: #fff;
+    border-radius: 5px;
+    overflow: auto;
+    z-index: 1001;
+    box-sizing: border-box;
+}
+
+.article::-webkit-scrollbar {
+    display: none;
+}
+
+.article_change::-webkit-scrollbar {
+    display: none;
+}
+
+.artical-top {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 443px;
+    height: 40px;
+    background-color: #fff;
+    z-index: 999;
+}
+
+.artical-top-back {
+    width: 40px;
+    height: 40px;
+    font-family: 'icomoon';
+    color: rgb(168, 167, 167);
+    cursor: pointer;
+    font-size: 40px;
+}
+
+.artical-top-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    transform: translateX(-40px);
+
+}
+
+.artical-top-imgs {
+    width: 100%;
+    height: 100%;
+}
+
+.artical-top-name {
+    transform: translateX(-80px);
+    cursor: default;
+
+}
+
+.artical-top-attent {
+    width: 60px;
+    height: 25px;
+    border: 1px solid rgb(103, 102, 102);
+    color: rgb(103, 102, 102);
+    border-radius: 18px;
+    text-align: center;
+    line-height: 25px;
+    transform: translateX(40px);
+    cursor: pointer;
+}
+
+.artical-top-icon {
+    font-family: 'icomoon';
+    width: 40px;
+    height: 40px;
+    color: rgb(168, 167, 167);
+    cursor: pointer;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.artical-img {
+    width: 443px;
+    height: 340px;
+    margin-top: 43px;
+}
+
+.artical-imgs {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* 图片下面的部分 */
+.artical-main {
+    margin: auto;
+    position: relative;
+    width: 420px;
+    background-color: #fff;
+    border-bottom: 1px solid rgb(196, 192, 192);
+}
+
+.article-main-title {
+    padding: 6px;
+    font-size: 17px;
+    font-weight: 700;
+    cursor: default;
+}
+
+.article-main-content {
+    padding: 6px;
+    font-size: 14px;
+    cursor: default;
+}
+
+.article-main-tag {
+    padding: 6px;
+    color: blueviolet;
+    font-size: 14px;
+    cursor: default;
+}
+
+.article-main-time {
+    padding: 6px;
+    font-size: 12px;
+    color: rgb(115, 116, 117);
+    cursor: default;
+}
+
+.aticle-main-like {
+    position: absolute;
+    width: 80px;
+    height: 22px;
+    font-size: 14px;
+    border: 1px solid rgb(40, 39, 39);
+    border-radius: 8px;
+    transform: translate(337px, -33px);
+    text-align: center;
+    line-height: 22px;
+    cursor: pointer;
+
+}
+
+/* 这里是自己进行评论部分 */
+.artical-comment {
+    padding: 12px;
+    height: 500px;
+    background-color: #fff;
+    cursor: default;
+}
+
+.article-comment-top {
+    font-size: 13px;
+
+}
+
+.article-comment-input {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+}
+
+
+.article-comment-pic {
+    width: 40px;
+    height: 40px;
+    background-color: pink;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.article-comment-pics {
+    width: 100%;
+    height: 100%;
+}
+
+.article-input-one {
+    width: 335px;
+    height: 35px;
+    border: none;
+    border-radius: 27px;
+    background-color: rgb(240 240 240);
+    font-size: 14px;
+    padding-left: 18px;
+    transform: translateX(-15px);
+}
+
+/* 这里是别人的评论部分 */
+/* .article-comment-main {
+    display: flex;
+    border-bottom: 1px solid #eee9e9
+} */
+
+.article-comment-box {
+    position: relative;
+    /* width: 443px; */
+    height: 22px;
+    padding: 15px 0px;
+    border-top: 1px solid #eee9e9;
+}
+
+.commentbox-pic {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 7px;
+    left: 2px;
+    background-color: pink;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.commentbox-pics {
+    width: 100%;
+    height: 100%;
+}
+
+.commentbox-nickname {
+    position: absolute;
+    top: 7px;
+    left: 55px;
+    font-size: 13px;
+    color: rgb(115, 116, 117);
+
+}
+
+.commentbox-main {
+    position: absolute;
+    top: 24px;
+    left: 55px;
+}
+
+.commentbox-content {
+    display: inline-block;
+    color: black;
+    font-size: 15px;
+
+}
+
+.commentbox-time {
+    display: inline-block;
+    font-size: 12px;
+    color: rgb(115, 116, 117);
+    cursor: default;
+
+}
+
+.commentbox-icon {
+    position: absolute;
+    top: 11px;
+    right: 12px;
+    font-family: 'icomoon';
+    font-size: 19px;
+    color: rgb(115, 116, 117);
+    cursor: pointer;
+
+}
+
+.commentbox-likenum {
+    top: 28px;
+    right: 18px;
+    position: absolute;
+    font-size: 13px;
+    color: rgb(115, 116, 117);
+
+}
+
+/* 二级回复部分 */
+.article-replay-main {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.article-replay-box {
+    position: relative;
+    /* width: 443px; */
+    height: 40px;
+    padding: 10px 0px 12px 0px;
+    top: 18px;
+}
+
+.replaybox-pic {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    top: 10px;
+    left: 46px;
+    background-color: pink;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.replaybox-pics {
+    width: 100%;
+    height: 100%;
+}
+
+.replaybox-nickname {
+    position: absolute;
+    top: 5px;
+    left: 90px;
+    font-size: 13px;
+    color: rgb(115, 116, 117);
+
+}
+
+.replaybox-main {
+
+    position: absolute;
+    top: 22px;
+    left: 90px;
+}
+
+.replaybox-content {
+    display: inline-block;
+    color: black;
+    font-size: 15px;
+
+}
+
+.replaybox-time {
+    display: inline-block;
+    font-size: 12px;
+    color: rgb(115, 116, 117);
+    cursor: default;
+
+}
+
+.replaybox-icon {
+    position: absolute;
+    top: 11px;
+    right: 12px;
+    font-family: 'icomoon';
+    font-size: 19px;
+    color: rgb(115, 116, 117);
+    cursor: pointer;
+
+}
+
+.replaybox-likenum {
+    top: 28px;
+    right: 16px;
+    position: absolute;
+    font-size: 13px;
+    color: rgb(115, 116, 117);
+
+}
+
+/* 最底部的发评论 */
+.artical-foot {
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    bottom: 42px;
+    width: 426px;
+    height: 45px;
+    background-color: #fff;
+    border-radius: 5px;
+    font-family: 'icomoon';
+    transform: translateX(-12px);
+}
+
+.article-input {
+    width: 290px;
+    height: 35px;
+    border: none;
+    border-radius: 27px;
+    background-color: rgb(240 240 240);
+    font-size: 17px;
+}
+
+.article-like {
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.article-collect {
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.article-comment {
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.article-like-num,
+.article-collect-num,
+.article-comment-num {
+    cursor: default;
+}

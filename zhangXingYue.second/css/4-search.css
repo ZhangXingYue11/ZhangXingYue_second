@@ -1,0 +1,159 @@
+.search {
+    display: none;
+    margin: auto;
+    width: 443px;
+    height: 639px;
+    background-color: #fff;
+    border-radius: 5px;
+    overflow: auto;
+}
+
+.search::-webkit-scrollbar {
+    display: none;
+}
+
+.search-head {
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 443px;
+    height: 40px;
+    background-color: #fff;
+    z-index: 999;
+
+}
+
+.search-head-back {
+    width: 40px;
+    height: 40px;
+    font-family: 'icomoon';
+    font-size: 40px;
+    color: rgb(168, 167, 167);
+    /* background-color: red; */
+    cursor: pointer;
+    display: inline-block;
+}
+
+
+.search-head-main {
+    font-family: 'icomoon';
+    font-size: 15px;
+    width: 300px;
+    height: 32px;
+    border: 1px solid rgb(148, 87, 222);
+    border-radius: 8px;
+    outline: none;
+}
+
+.search-head-box3 input {
+    width: 50px;
+    height: 30px;
+    font-size: 17px;
+}
+
+/* 下面两个选择 */
+.search-main ul {
+    display: flex;
+    width: 443px;
+    height: 40px;
+    position: fixed;
+    justify-content: space-around;
+    border-bottom: 1px solid rgb(214, 211, 211);
+    background-color: #fff;
+    list-style: none;
+    z-index: 999;
+    top: 40px;
+}
+
+.tag-search {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.search-box {
+    display: none;
+}
+
+.search-main {
+    display: none;
+}
+
+/* 用户里面的大盒子的每一条的模板 */
+.search-main2-user {
+    width: 420px;
+    height: 900px;
+    box-sizing: content-box;
+    margin-top: 80px;
+    padding-bottom: 80px;
+
+}
+
+.search-user-box1 {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 443px;
+    height: 60px;
+    border-bottom: 1px solid rgb(215, 209, 209);
+}
+
+.search-user-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: pink;
+    margin-left: 5px;
+    overflow: hidden;
+}
+
+.search-user-pics {
+    width: 100%;
+    height: 100%;
+}
+
+.search-user-name {
+    transform: translate(-123px, 0);
+}
+
+.search-user-foci {
+    width: 60px;
+    height: 30px;
+    margin-right: 5px;
+    border-radius: 5px;
+    line-height: 30px;
+    text-align: center;
+    font-weight: 700;
+    border: 2px solid rgb(115, 13, 212);
+    color: #fff;
+    background-color: rgb(115, 13, 212);
+    cursor: pointer;
+}
+
+/* .user-foci-change {
+    width: 70px;
+    height: 30px;
+    margin-right: 5px;
+    border-radius: 5px;
+    line-height: 30px;
+    text-align: center;
+    font-weight: 700;
+    border: 2px solid rgb(115, 13, 212);
+    background-color: rgb(115, 13, 210);
+    color: #fff;
+    cursor: pointer;
+} */
+
+.search-blank1,
+.search-blank2 {
+    position: absolute;
+    display: none;
+    width: 200px;
+    height: 30px;
+    transform: translate(145px, 100px);
+    cursor: pointer;
+}

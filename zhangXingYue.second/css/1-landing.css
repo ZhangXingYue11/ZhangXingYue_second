@@ -1,0 +1,131 @@
+/* 样式声明 */
+@font-face {
+    font-family: 'icomoon';
+    src: url('fonts/icomoon.eot?8ny77d');
+    src: url('fonts/icomoon.eot?8ny77d#iefix') format('embedded-opentype'),
+        url('fonts/icomoon.ttf?8ny77d') format('truetype'),
+        url('fonts/icomoon.woff?8ny77d') format('woff'),
+        url('fonts/icomoon.svg?8ny77d#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+html {
+    background-color: rgb(100, 97, 97);
+}
+
+.landing {
+    /* display: none; */
+    margin: auto;
+    width: 443px;
+    height: 642px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.land-main {
+    position: relative;
+    margin: auto;
+    top: 50px;
+    width: 300px;
+    height: 400px;
+
+}
+
+.land-logo {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 120px;
+    height: 50px;
+}
+
+.land-logo img {
+    width: 100%;
+}
+
+#username {
+    position: absolute;
+    top: 130px;
+    width: 300px;
+    height: 70px;
+    background-color: #fd8f7c;
+    font-size: 16px;
+    color: #ffff;
+    line-height: 70px;
+    font-family: 'icomoon';
+    border: 1px solid;
+    border-radius: 30px;
+    margin-right: 3px;
+    text-align: center;
+    outline: none;
+}
+
+#password {
+    position: absolute;
+    top: 215px;
+    width: 300px;
+    height: 70px;
+    background-color: #fd8f7c;
+    font-size: 16px;
+    color: #ffff;
+    line-height: 70px;
+    font-family: 'icomoon';
+    border: 1px solid;
+    border-radius: 30px;
+    margin-right: 3px;
+    text-align: center;
+    outline: none;
+
+}
+
+.land-pass {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 5%);
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(90deg, rgb(243 29 14 / 60%), rgb(242 224 58 / 60%));
+    border-radius: 50%;
+    line-height: 80px;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.land-pass input {
+    border: none;
+    background-color: transparent;
+    font-size: 30px;
+}
+
+.land-agree {
+    position: absolute;
+    width: 200px;
+    height: 20px;
+    top: 300px;
+    font-size: 13px;
+    color: rgb(150, 147, 147);
+    left: 50%;
+    transform: translate(-50%, 0);
+    cursor: pointer;
+}
+
+.land-foot {
+    position: absolute;
+    width: 70px;
+    height: 16px;
+    left: 50%;
+    transform: translate(-50%, 465px);
+    font-size: 16px;
+    cursor: pointer;
+}

@@ -1,0 +1,268 @@
+.center {
+    display: none;
+    margin: auto;
+    width: 443px;
+    height: 600px;
+    background-color: #fff;
+    border-radius: 5px 5px 0 0;
+    overflow: auto;
+    box-sizing: border-box;
+
+}
+
+.center::-webkit-scrollbar {
+    display: none;
+}
+
+.center-top {
+    top: 0px;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    width: 443px;
+    height: 40px;
+    padding: 8px 13px;
+    background-color: #fff;
+    box-sizing: border-box;
+    z-index: 999;
+}
+
+/* 最底部的选项 */
+.center .home-foot-center {
+    color: rgb(160, 91, 240);
+    border-bottom: 2px solid rgb(160, 91, 240);
+}
+
+.center-top-icon1,
+.center-top-icon2 {
+    width: 40px;
+    height: 40px;
+    font-family: 'icomoon';
+    font-size: 28px;
+    color: rgb(18, 18, 18);
+    cursor: pointer;
+}
+
+.center-text-box1 {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    top: 37px;
+    width: 443px;
+    height: 100px;
+    background-color: #fff;
+    z-index: 999;
+
+}
+
+.center-box1-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: red;
+    margin-left: 20px;
+    overflow: hidden;
+}
+
+.center-box1-imgs {
+    width: 100%;
+    height: 100%;
+}
+
+.center-box1-name {
+    margin-left: 20px;
+    font-size: 18px;
+    cursor: default;
+
+}
+
+.center-text-box2 {
+    position: fixed;
+    top: 135px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 443px;
+    height: 56px;
+    background-color: #fff;
+    z-index: 999;
+
+}
+
+.center-three-class {
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(124, 123, 123);
+}
+
+div[class^=center-box2] {
+    width: 40px;
+    height: 56px;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.center-attent-num,
+.center-fans-num,
+.center-like-num {
+    font-weight: 700;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.center-attent-class,
+.center-fans-class,
+.center-like-class {
+    width: 40px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.center-box-data .center-data-btn {
+    width: 85px;
+    height: 30px;
+    /* background-color: pink; */
+    border: 1px solid #000;
+    border-radius: 8px;
+    text-align: center;
+    line-height: 30px;
+    color: #000;
+    cursor: pointer;
+}
+
+
+/* 下面的三个盒子 */
+.center-text-box3 ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 189px;
+    width: 443px;
+    height: 43px;
+    background-color: #ffff;
+    list-style: none;
+    border-bottom: 1px solid rgb(238, 234, 234);
+    z-index: 999;
+
+}
+
+.center-box3-notes {
+    color: rgb(160, 91, 240);
+    border-bottom: 2px solid rgb(160, 91, 240);
+}
+
+.centerbox {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.centerbox-change {
+    color: rgb(160, 91, 240);
+    border-bottom: 2px solid rgb(160, 91, 240);
+}
+
+/* 每一个最大的盒子 */
+.center-main1-recommend {
+    width: 424px;
+    height: 900px;
+    box-sizing: content-box;
+    margin-top: 250px;
+    padding-bottom: 80px;
+    transform: translate(12px, 0);
+}
+
+.center-box1 {
+    display: inline-block;
+    width: 186px;
+    height: 290px;
+    margin: 10px;
+    background-color: #fff;
+    border: 1px solid rgb(153, 152, 152);
+    border-radius: 5px;
+    box-shadow: 2px 2px 7px 3px rgb(0 0 0 / 20%);
+    overflow: hidden;
+}
+
+/* 每一个小盒子里面的样式 */
+.center-box-pic {
+    width: 186px;
+    height: 200px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.center-box-pic img {
+    width: 100%;
+    height: 100%;
+}
+
+.center-box-title {
+    width: 186px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* 每个小盒子最底部的一行 */
+.center-box-foot {
+    display: flex;
+    justify-content: space-between;
+    width: 184px;
+    height: 40px;
+    line-height: 40px;
+
+}
+
+.center-foot-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.center-foot-pic img {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.center-foot-author {
+    /* width: 60px; */
+    height: 40px;
+    font-size: 14px;
+    color: rgb(128, 124, 124);
+    transform: translate(-12px, 0);
+    cursor: pointer;
+}
+
+.center-foot-icon {
+    width: 20px;
+    height: 40px;
+    font-family: 'icomoon';
+    color: rgb(128, 124, 124);
+    transform: translate(12px, 0);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.center-foot-like {
+    color: rgb(128, 124, 124);
+    font-size: 15px;
+    cursor: default;
+}

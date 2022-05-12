@@ -1,0 +1,117 @@
+.comment {
+    display: none;
+    margin: auto;
+    width: 443px;
+    height: 642px;
+    background-color: #fff;
+    border-radius: 5px;
+    /* overflow: auto; */
+}
+
+.comment-top {
+    display: flex;
+    justify-content: space-between;
+    width: 443px;
+    height: 40px;
+    /* background-color: pink; */
+    border-bottom: 1px solid rgb(215, 209, 209);
+
+}
+
+.comment-top-back {
+    width: 40px;
+    height: 40px;
+    font-family: 'icomoon';
+    font-size: 40px;
+    color: rgb(168, 167, 167);
+    cursor: pointer;
+}
+
+.comment-top-word {
+    transform: translate(-140px, 0);
+    height: 40px;
+    line-height: 40px;
+    font-size: 22px;
+    cursor: default;
+}
+
+/* 复制的前面的代码 */
+/* .collect-main-collect ul {
+    display: flex;
+    flex-direction: column;
+} */
+
+
+/* 关于点赞的信息 */
+
+.comment-box1 {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 443px;
+    height: 60px;
+    /* background-color: pink; */
+    border-top: 1px solid rgb(207, 199, 199);
+    border-bottom: 1px solid rgb(207, 199, 199);
+    margin-top: -1px;
+    cursor: default;
+
+}
+
+.comment-box1-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: pink;
+}
+
+.comment-box1-imgs {
+    width: 100%;
+    height: 100%;
+}
+
+.comment-box1-left {
+    /* margin-left: 10px; */
+    display: flex;
+    margin-left: 15px;
+    justify-content: space-between;
+    align-items: center;
+    width: 160px;
+    height: 50px;
+    /* background-color: red; */
+}
+
+.comment-box1-text {
+    font-size: 14px;
+    color: rgb(188, 182, 182);
+}
+
+/* 具体信息里面右边的缩小图片以及字体图标 */
+
+.comment-box1-right {
+    width: 80px;
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    align-items: center;
+    /* background-color: red; */
+}
+
+
+.comment-box1-pic {
+    width: 40px;
+    height: 40px;
+    background-color: skyblue;
+}
+
+.comment-box1-pics {
+    width: 100%;
+    height: 100%;
+}
+
+.comment-box1-icon {
+    font-family: 'icomoon';
+    font-size: 32px;
+    color: rgb(188, 182, 182);
+}

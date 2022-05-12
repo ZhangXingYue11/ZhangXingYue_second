@@ -1,0 +1,169 @@
+.collect {
+    display: none;
+    margin: auto;
+    width: 443px;
+    height: 642px;
+    background-color: #fff;
+    border-radius: 5px;
+    /* overflow: auto; */
+    box-sizing: border-box;
+}
+
+.collect-top {
+    display: flex;
+    justify-content: space-between;
+    width: 443px;
+    height: 40px;
+    background: linear-gradient(90deg, rgba(246, 60, 47, 0.6), rgba(128, 58, 242, 0.6));
+
+
+}
+
+.collect-top-back {
+    width: 40px;
+    height: 40px;
+    font-family: 'icomoon';
+    font-size: 40px;
+    color: rgb(168, 167, 167);
+    cursor: pointer;
+}
+
+.collect-top-word {
+    transform: translate(-170px, 0);
+    height: 40px;
+    line-height: 40px;
+    font-size: 22px;
+    cursor: default;
+}
+
+.collect-class {
+    display: flex;
+    justify-content: space-around;
+    width: 443px;
+    height: 50px;
+    /* background-color: skyblue; */
+    line-height: 50px;
+    border-bottom: 1px solid rgb(215, 209, 209);
+}
+
+.collect-class-like {
+    height: 50px;
+    width: 40px;
+    margin-top: -2px;
+    text-align: center;
+    font-size: 18px;
+    border-bottom: 3px solid rgb(134, 77, 232);
+    color: rgb(165, 124, 235);
+    cursor: pointer;
+}
+
+.collect-class-collect {
+    height: 50px;
+    width: 40px;
+    margin-top: -2px;
+    text-align: center;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.collect-main-like,
+.collect-main-collect {
+    width: 443px;
+    height: 400px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+}
+
+/* .collect-main-like,
+.collect-main-collect {
+    display: flex;
+    flex-direction: column;
+} */
+
+/* 显示哪一个盒子 */
+.collect-main-collect {
+    display: none;
+}
+
+/* 关于点赞的信息 */
+.collect-main-like .box1,
+.collect-main-collect .box2 {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 443px;
+    height: 60px;
+    /* background-color: pink; */
+    border-top: 1px solid rgb(207, 199, 199);
+    border-bottom: 1px solid rgb(207, 199, 199);
+    margin-top: -1px;
+    cursor: default;
+
+}
+
+.collect-main-like .box1-img,
+.collect-main-collect .box2-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: pink;
+    overflow: hidden;
+}
+
+.collect-main-like .box1-imgs,
+.collect-main-collect .box2-imgs {
+    width: 100%;
+    height: 100%;
+}
+
+.collect-main-like .box1-left,
+.collect-main-collect .box2-left {
+    /* margin-left: 10px; */
+    display: flex;
+    margin-left: 15px;
+    justify-content: space-between;
+    align-items: center;
+    width: 160px;
+    height: 50px;
+    /* background-color: red; */
+}
+
+.box1-text,
+.box2-text {
+    font-size: 14px;
+    color: rgb(188, 182, 182);
+}
+
+/* 具体信息里面右边的缩小图片以及字体图标 */
+.collect-main-like .box1-right,
+.collect-main-collect .box2-right {
+    width: 80px;
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.collect-main-like .box1-pic,
+.collect-main-collect .box2-pic {
+    width: 40px;
+    height: 40px;
+    background-color: skyblue;
+}
+
+.collect-main-like .box1-pics,
+.collect-main-collect .box2-pics {
+    width: 100%;
+    height: 100%;
+}
+
+.collect-main-like .box1-icon,
+.collect-main-collect .box2-icon {
+    font-family: 'icomoon';
+    font-size: 32px;
+    color: rgb(188, 182, 182);
+}

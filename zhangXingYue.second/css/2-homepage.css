@@ -1,0 +1,230 @@
+.homepage {
+    display: none;
+    margin: auto;
+    width: 443px;
+    height: 600px;
+    background-color: #fff;
+    border-radius: 5px 5px 0 0;
+    overflow: auto;
+    z-index: 2;
+}
+
+.homepage::-webkit-scrollbar {
+    display: none;
+}
+
+.home-head {
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 443px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 5px;
+    /* background-color: red; */
+    z-index: 999;
+}
+
+.home-head-publish {
+    font-family: 'icomoon';
+    color: rgb(102, 99, 99);
+    font-size: 38px;
+    cursor: pointer;
+
+}
+
+.home-head-logo {
+    font-size: 24px;
+    color: black;
+    cursor: pointer;
+}
+
+.home-head-search {
+    font-family: 'icomoon';
+    font-size: 30px;
+    color: rgb(102, 99, 99);
+    cursor: pointer;
+
+}
+
+.home-foot {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 42px;
+    width: 443px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 0 0 5px 5px;
+
+}
+
+.homepage .home-foot-page {
+    color: rgb(160, 91, 240);
+    border-bottom: 2px solid rgb(160, 91, 240);
+}
+
+.home-foot-page,
+.home-foot-center,
+.home-foot-msg {
+    display: flex;
+    flex-direction: column;
+    width: 70px;
+    height: 38px;
+    font-family: 'icomoon';
+    text-align: center;
+    color: rgb(102, 99, 99);
+    cursor: pointer;
+}
+
+.home-foot .foot-box1 {
+    font-size: 18px;
+}
+
+.home-foot .foot-box2 {
+    font-size: 14px;
+}
+
+/* 中间最为重要和核心的部分 */
+.home-main-head ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 40px;
+    width: 443px;
+    height: 40px;
+    background-color: #ffff;
+    list-style: none;
+    z-index: 999;
+
+}
+
+.mian-head1-recommend {
+    color: rgb(160, 91, 240);
+    border-bottom: 2px solid rgb(160, 91, 240);
+}
+
+.tag {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.tag-change {
+    color: rgb(160, 91, 240);
+    border-bottom: 2px solid rgb(160, 91, 240);
+}
+
+
+
+/* 每一个最大的盒子 */
+.home-main1-recommend,
+.search-main1-artical {
+    width: 424px;
+    height: 900px;
+    /* background-color: skyblue; */
+    box-sizing: content-box;
+    margin-top: 80px;
+    padding-bottom: 80px;
+    transform: translate(12px, 0);
+}
+
+.recommend-box1,
+.artical-box1 {
+    display: inline-block;
+    width: 186px;
+    height: 290px;
+    margin: 10px;
+    background-color: #fff;
+    border: 1px solid rgb(153, 152, 152);
+    border-radius: 5px;
+    box-shadow: 2px 2px 7px 3px rgb(0 0 0 / 20%);
+    overflow: hidden;
+}
+
+/* 每一个小盒子里面的样式 */
+.recommend-box-pic,
+.artical-box-pic {
+    width: 186px;
+    height: 200px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.recommend-box-pic img,
+.artical-box-pic img {
+    width: 100%;
+    height: 100%;
+}
+
+.recommend-box-title,
+.artical-box-title {
+    width: 186px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* 每个小盒子最底部的一行 */
+.recommend-box-foot,
+.artical-box-foot {
+    display: flex;
+    justify-content: space-between;
+    width: 184px;
+    height: 40px;
+    line-height: 40px;
+
+}
+
+.recommend-foot-pic,
+.artical-foot-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.recommend-foot-pic img,
+.artical-foot-pic img {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.recommend-foot-author,
+.artical-foot-author {
+    width: 60px;
+    height: 40px;
+    font-size: 14px;
+    color: rgb(128, 124, 124);
+    transform: translate(-12px, 0);
+    cursor: pointer;
+}
+
+.recommend-foot-icon,
+.artical-foot-icon {
+    width: 20px;
+    height: 40px;
+    font-family: 'icomoon';
+    color: rgb(128, 124, 124);
+    transform: translate(12px, 0);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.recommend-foot-like,
+.artical-foot-like {
+    color: rgb(128, 124, 124);
+    font-size: 15px;
+    cursor: default;
+}
